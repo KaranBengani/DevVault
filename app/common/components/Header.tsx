@@ -13,7 +13,7 @@ const Header = ({ className }: HeaderProps ) => {
       <div className="container flex h-16 items-center justify-between px-4 mx-auto py-4">
         <div className="flex items-center gap-2">
           <Code className="h-6 w-6 text-primary" />
-          <Link href="/" className="text-xl font-bold tracking-tight">
+          <Link href="/jsonjazzer" className="text-xl font-bold tracking-tight">
             JSON-Jazzer
           </Link>
         </div>
@@ -35,7 +35,7 @@ const Header = ({ className }: HeaderProps ) => {
         
         <div className="hidden md:flex items-center gap-4">
           <a 
-            href="https://github.com" 
+            href="https://github.com/KaranBengani/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -43,7 +43,7 @@ const Header = ({ className }: HeaderProps ) => {
             <Github className="h-5 w-5" />
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/karan-bengani/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"

@@ -18,7 +18,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
         
         <div className="flex items-center gap-4">
           <a 
-            href="https://github.com" 
+            href="https://github.com/KaranBengani/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -27,7 +27,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
             <Github className="h-5 w-5" />
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/karan-bengani/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
