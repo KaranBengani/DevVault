@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect, useRef } from 'react';
 import { cn } from '@/lib/utils';
-import { Check, Copy, AlignLeft, X } from 'lucide-react';
+import { Check, Copy, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
 
