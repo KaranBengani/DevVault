@@ -22,7 +22,7 @@ const sampleJson = `{
 }`;
 
 const JsonFormatter = () => {
-  const [jsonInput, setJsonInput] = useState('');
+  const [jsonInput, setJsonInput] = useState(sampleJson);
   const [validation, setValidation] = useState({ isValid: true, error: '' });
   const [isProcessing, setIsProcessing] = useState(false);
   

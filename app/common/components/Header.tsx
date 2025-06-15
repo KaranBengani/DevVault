@@ -1,6 +1,6 @@
 import React from 'react';
 import Link  from 'next/link';
-import { Github, Linkedin, Code } from 'lucide-react';
+import { Linkedin, Code } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface HeaderProps {
@@ -18,7 +18,7 @@ const Header = ({ className }: HeaderProps ) => {
           </Link>
         </div>
         
-        <nav className="hidden md:flex items-center gap-6 lg:ml-[-90px] xl:ml-[-100px]">
+        {/* <nav className="hidden md:flex items-center gap-6 lg:ml-[-90px] xl:ml-[-100px]">
           <Link href="/" className="text-sm font-medium transition-colors hover:text-primary">
             Formatter
           </Link>
@@ -31,19 +31,19 @@ const Header = ({ className }: HeaderProps ) => {
           <a href="#" className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
             Contact
           </a>
-        </nav>
+        </nav> */}
         
         <div className="hidden md:flex items-center gap-4">
-          <a 
+          {/* <a 
             href="https://github.com/KaranBengani/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             <Github className="h-5 w-5" />
-          </a>
+          </a> */}
           <a 
-            href="https://www.linkedin.com/in/karan-bengani/" 
+            href="https://www.linkedin.com/in/sailashree-pandab/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Heart } from 'lucide-react';
+import { Linkedin, Heart } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface FooterProps {
@@ -13,21 +13,12 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
         <div className="flex items-center gap-1 text-sm text-muted-foreground">
           <span>Built with</span>
           <Heart className="h-4 w-4 text-destructive" />
-          <span>By Karan Bengani</span>
+          <span>By Sailashree Pandab</span>
         </div>
         
         <div className="flex items-center gap-4">
           <a 
-            href="https://github.com/KaranBengani/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-            aria-label="GitHub"
-          >
-            <Github className="h-5 w-5" />
-          </a>
-          <a 
-            href="https://www.linkedin.com/in/karan-bengani/" 
+            href="https://www.linkedin.com/in/sailashree-pandab/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
